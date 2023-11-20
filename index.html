@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUDOKU GAME</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="messageContainer" class="hidden">
+        <div id="messageBox">
+            <img src="" alt="" id="rslt_img" height="45px" width="45px">
+            <p id="lose_content"></p>
+            <button id="restartButton">Continue Game</button>
+        </div>
+    </div>
+    <!-- <button id="temp">click</button> -->
+
+    <h1>Sudoku Game</h1>
+    <p style="text-align: center;font-size: 1.3rem;color: brown;" id="provide">Fill the boxes with your question and submit <br> to get the solution</p>
+    <div class="parent">
+        <div class="container">
+            <div class="row" id="row1">
+
+            </div>
+            <div class="row" id="row2">
+
+            </div>
+            <div class="row" id="row3">
+
+            </div>
+            <div class="row" id="row4">
+
+            </div>
+            <div class="row" id="row5">
+
+            </div>
+            <div class="row" id="row6">
+
+            </div>
+            <div class="row" id="row7">
+
+            </div>
+            <div class="row" id="row8">
+
+            </div>
+            <div class="row" id="row9">
+
+            </div>
+        </div>
+    </div>
+    <div class="numbers">
+        <p class="num" id="one">1</p>
+        <p class="num">2</p>
+        <p class="num">3</p>
+        <p class="num">4</p>
+        <p class="num">5</p>
+        <p class="num">6</p>
+        <p class="num">7</p>
+        <p class="num">8</p>
+        <p class="num">9</p>
+    </div>
+    <div class="subm">
+        <button class="submit" id="submitBtn">Submit</button>
+        <button id="resetBtn">Reset</button>
+    </div>
+
+    <div class="options">
+        <p style="font-size: 1.3rem;">Play Game</p>
+        <label for="levels">Choose level:</label>
+
+        <select name="levels" id="levels">
+            <option value="">...</option>
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="difficult">Difficult</option>
+        </select>
+
+        <p style="margin-left: 3rem;">Or</p>
+        <br>
+        <button id="providesoln">Provide Solution for my <br> question</button>
+        
+    </div>
+
+    
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
