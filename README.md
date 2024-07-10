@@ -1,4 +1,4 @@
-# Sudoku-Game
+# Sudoku-Solver
 A sudoku game where users can either PLAY SUDOKU OR PROVIDE THE QUESTION AND GET THE SOLUTION.
 
 I am here to share the implementation details of Sudoku puzzle. Sudoku is a number-placement puzzle played on a 9x9 grid divided into 3x3 sub grids called regions. The objective is to fill in the grid so that each row, column, and region contains all the numbers from 1 to 9 without repetition.
